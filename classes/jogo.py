@@ -1,3 +1,5 @@
+# Definição da classe jogo
+
 class jogo:
     def __init__(self, adversarioData, nivelJogo, dataJogo, campeonato, categoria, referencia, tempoTotalJogo
                 ,atleta, posicao, tempo_em_jogo, gol, finaGol, finaFora, finaBloq, assistFina, assistGol, chanceClara
