@@ -1,3 +1,5 @@
+# Definição da classe Goleiro
+
 class goleiro:
     def __init__(self, adversarioData, nivelJogo, dataJogo, campeonato, categoria, referencia, tempoTotalJogo
                 ,goleiro, tempoEmJogo, coberturaCerta, coberturaErrada, defesaDificil, defesaRebote,defesaSemRebote, falha
