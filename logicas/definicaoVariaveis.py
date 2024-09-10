@@ -66,15 +66,12 @@ def cadastroBancoIndividual(infoJogo, infoColetivo, atleta, acoes, passeCertoTem
     TotalVitoriaAereo = 0  
     TotalDerrotaAereo = 0 
 
-    #TotalPasseCerto = sum(passeCerto)
     listaDeAcoes = ['GOL', 'FINALIZAÇÃO NO GOL', 'FINALIZAÇÃO PRA FORA', 'FINALIZAÇÃO BLOQUEADA', 
                 'ASSISTÊNCIA P/FINALIZAÇÃO', 'ASSISTÊNCIA P/GOL', 'CHANCES CLARAS', 'BLOQUEIO DE FINALIZAÇÃO',
                 'INTERCEPTAÇÃO', 'DESARME CERTO', 'DRIBLE SOFRIDO', 'FALTA', 'DRIBLE CERTO','PERDA DA BOLA', 
                 'FALTA SOFRIDA', 'PASSE ERRADO', 'PASSE VERTICAL', 'PASSE VERTICAL ERRADO', 'PASSE LONGO', 
                 'PASSE LONGO ERRADO', 'CRUZAMENTO', 'CRUZAMENTO ERRADO', 'VITÓRIA JOGO AÉREO', 'DERROTA JOGO AÉREO',
                 'MUDANÇA DE COMPORTAMENTO DEFENSIVA','MUDANÇA DE COMPORTAMENTO OFENSIVA','TEMPO DE JOGO']
-    #25 ações
-    # Sem contar passe certo e contando tempo de jogo
 
     for tipoAcao in acoes:
     
@@ -161,8 +158,6 @@ def cadastroBancoIndividual(infoJogo, infoColetivo, atleta, acoes, passeCertoTem
                     finaFora, finaBloq, assistFina, assistGol, chanceClara, bloqFina, intercep, desarmeCerto, desarmeErrado, falta, dribleCerto,
                     perdaBola, faltaSofrida, passeCerto, passeErrado, passeVertical, passeVerticalErrado, passeLongo, passeLongoErra, cruzamento, 
                     cruzamentoErrado, vitoriaAereo, derrotaAereo, MCD, MCO, tempoEmJogo, MCDTotal, MCOTotal, intercepTotal)
-    #st.write(TotalFinaFora)
-    #st.write(finaFora)
     #coletivo.cadastrarColetivo(infoColetivo, adversarioData, nivelJogo, dataJogo, campeonato, categoria, referencia, tempoTotalJogo, TotalGol, TotalFinaGol,
     #                TotalFinaFora, TotalFinaBloq, TotalAssistFina, TotalAssistGol, TotalChanceClara, TotalBloqFina, TotalDesarmeCerto, TotalDesarmeErrado, TotalDribleCerto,
     #                TotalPerdaBola, TotalPasseErrado, TotalPasseVertical, TotalPasseVerticalErrado, TotalPasseLongo, TotalPasseLongoErrado, TotalCruzamento, 
