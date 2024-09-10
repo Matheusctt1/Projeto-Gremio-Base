@@ -9,11 +9,8 @@ import pandas as pd
 def arrumarValoresX(x):
     return (((x * 100)/30)*100)/100
     
-    #return x
 def arrumarValoresY(y):
     return (((y * 100)/18)*63)/100
-    
-    #return y
 
 def mapaDeCalor(df):
     valoresX = arrumarValoresX(df['X'])
@@ -56,6 +53,6 @@ def mapaDeCalor(df):
         }
     plt.title(F'Mapa de Calor / {len(valoresX)} Ações', fontdict=titleFont)
     
-    ax.set_ylim(0, 105)  # Limitando o eixo x de 0 a 105
+    ax.set_ylim(0, 105)
     ax.set_xlim(68, 0) 
     return st.pyplot(fig, use_container_width=True)
