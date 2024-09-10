@@ -1,3 +1,5 @@
+# Definição da classe adversario
+
 class adversario:
     def __init__(self, adversarioData, nivelJogo, dataJogo, campeonato, categoria, referencia, tempoTotalJogo
                 ,gol, fina, finaGol, chanceClara, passeCerto, passeErra, passeLongo, passeLongoErra, cruzamento, 
