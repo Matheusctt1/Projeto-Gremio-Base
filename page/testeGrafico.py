@@ -49,11 +49,11 @@ def teste():
                                         yaxis_title='Nota Defensiva',
                                         xaxis=dict(
                                             tickmode='array',
-                                            tickvals=[],  # Lista vazia para ocultar os valores do eixo x
+                                            tickvals=[], 
                                             ),
                                         yaxis=dict(
                                             tickmode='array',
-                                            tickvals=[],  # Lista vazia para ocultar os valores do eixo y
+                                            tickvals=[], 
                                             )
                                         )
 
