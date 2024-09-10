@@ -16,7 +16,7 @@ def mostrarBanco():
        conn = init_connection()
 
 
-       query = 'SELECT * FROM bd_atletas'
+       query = 'SELECT * FROM BD_ATLETAS'
        df = pd.read_sql(query, conn)
        st.data_editor(df, key=1,hide_index=True, height=600)
                         
