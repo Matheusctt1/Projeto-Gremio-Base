@@ -1,3 +1,5 @@
+# Definição da classe coletivo
+
 class coletivo:
     def __init__(self, adversarioData, nivelJogo, dataJogo, campeonato, categoria, referencia, tempoTotalJogo, gol, finaGol, finaFora, finaBloq, 
                 assistFina, assistGol, chanceClara, interceptacao, bloqFina, desarmeCerto, desarmeErrado, falta, dribleCerto, perdaBola, faltaSofrida,
