@@ -16,7 +16,7 @@ import page.testeDashboards as dashboard
 st.sidebar.header('Menu')
 
 Page_cliente = st.sidebar.selectbox(
-    'Ferramentas', ['Pagina Inicial', 'Cadastro Banco de Dados', 'Cadastro Atletas', 'Dashboard', 'teste'], 0)
+    'Ferramentas', ['Pagina Inicial', 'Cadastro Banco de Dados', 'Cadastro Atletas', 'Dashboard'], 0)
 
 if Page_cliente == 'Pagina Inicial':
   paginaInicial.exibirPagina()
