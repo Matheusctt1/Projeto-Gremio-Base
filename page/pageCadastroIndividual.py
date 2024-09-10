@@ -142,14 +142,14 @@ def mostrarFormDados(df):
         #cadastrarColetivo.cadastrarColetivo(infoJogo, listaAtletasFiltered, infoColetivo, df)
         #cadastrarADV.cadastrarADV(infoJogo, infoADV)
         
-        #try:
+        try:
             with st.status("Cadastrando Jogo..."):
                 filtrarDataFrame.filtrarDataFrame(infoJogo, infoColetivo, listaAtletasFiltered, listaGoleiros, df)
 
             st.success(f"Cadastro de {adversarioData}, concluído!")
 
-        #except Exception as e:
-        #    st.error("Ocorreu um erro durante o cadastro, Contate seu Desenvolvedor.")
+        except Exception as e:
+            st.error("Ocorreu um erro durante o cadastro, Contate seu Desenvolvedor.")
             
 def limparVariaveis():
     clickButtonKey = 'clickButton'
